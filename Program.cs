@@ -12,13 +12,18 @@ namespace human_proj
             Wizard harry = new Wizard("Harry");
             Ninja naruto = new Ninja("Naruto");
             Ninja sasuke = new Ninja("Sasuke");
+            Samurai jack = new Samurai("Jack");
+            Samurai shredder = new Samurai("Shredder");
 
 
-            naruto.steal(sasuke);
-            naruto.get_away();
-            System.Console.WriteLine(sasuke.health);
-            System.Console.WriteLine(naruto.health);
-            
+            jack.how_many();
+            jack.death_blow(shredder);
+            merlin.fireball(shredder);
+            merlin.fireball(shredder);
+            jonny.Attack(shredder);
+            henry.Attack(shredder);
+            jack.death_blow(shredder);
+            System.Console.WriteLine(shredder.health);
 
         }
     }
