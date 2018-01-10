@@ -10,11 +10,15 @@ namespace human_proj
             Human jonny = new Human("Jonny", 10, 10, 15, 200);
             Wizard merlin = new Wizard("Merlin");
             Wizard harry = new Wizard("Harry");
-            System.Console.WriteLine(harry.health);
+            Ninja naruto = new Ninja("Naruto");
+            Ninja sasuke = new Ninja("Sasuke");
 
 
-            merlin.fireball(jonny);
-            System.Console.WriteLine(jonny.health);
+            naruto.steal(sasuke);
+            naruto.get_away();
+            System.Console.WriteLine(sasuke.health);
+            System.Console.WriteLine(naruto.health);
+            
 
         }
     }
