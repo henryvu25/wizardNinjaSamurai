@@ -22,8 +22,10 @@ namespace human_proj
             merlin.fireball(shredder);
             jonny.Attack(shredder);
             henry.Attack(shredder);
+            merlin.Attack(jonny);
             jack.death_blow(shredder);
             System.Console.WriteLine(shredder.health);
+            System.Console.WriteLine(jonny.health);
 
         }
     }
