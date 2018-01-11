@@ -17,7 +17,7 @@ namespace human_proj
         }
         public void fireball(object name)
         {
-            Human enemy = name as Human;
+            Enemy enemy = name as Enemy;
             Random rand = new Random();
             if(enemy != null)
             {

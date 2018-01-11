@@ -28,7 +28,7 @@ namespace human_proj
         }
         public void Attack(object name)
         {
-            Human enemy = name as Human;
+            Enemy enemy = name as Enemy;
             if(enemy == null)
             {
                 System.Console.WriteLine("Attack has no effect");

@@ -14,18 +14,17 @@ namespace human_proj
             Ninja sasuke = new Ninja("Sasuke");
             Samurai jack = new Samurai("Jack");
             Samurai shredder = new Samurai("Shredder");
+            Spider spider1 = new Spider(5);
+            Zombie zombie1 = new Zombie(5);
 
+            
+            henry.Attack(zombie1);
+            System.Console.WriteLine(zombie1.health);
+            zombie1.resurrect();
+            System.Console.WriteLine(zombie1.health);
+            
+            
 
-            jack.how_many();
-            jack.death_blow(shredder);
-            merlin.fireball(shredder);
-            merlin.fireball(shredder);
-            jonny.Attack(shredder);
-            henry.Attack(shredder);
-            merlin.Attack(jonny);
-            jack.death_blow(shredder);
-            System.Console.WriteLine(shredder.health);
-            System.Console.WriteLine(jonny.health);
 
         }
     }

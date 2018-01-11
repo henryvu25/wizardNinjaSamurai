@@ -11,7 +11,7 @@ namespace human_proj
         }
         public void steal(object name)
         {
-            Human enemy = name as Human;    
+            Enemy enemy = name as Enemy;    
             if(enemy != null)
             {
                 enemy.health -= 10;
