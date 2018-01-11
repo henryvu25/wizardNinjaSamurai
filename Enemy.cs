@@ -20,7 +20,7 @@ namespace human_proj
             Human target = name as Human;
             if(target != null)
             {
-                target.health -= 10;
+                target.health -= 3*level;
             }
         }
     }
